@@ -79,6 +79,9 @@
     margin-top: 25px;
     margin-bottom: 40px;
  }
+ .banner-img img{
+    width: 100%;
+ }
  
  
  .goat{
@@ -119,5 +122,13 @@
      }
      .follow{
         text-align: left;
+     }
+     .banner-img img{
+        width: 100%;
+     }    
+     .banner-container{
+        flex-direction: column-reverse;
+        padding-left: 40px;
+        align-items: center;
      }
  }
