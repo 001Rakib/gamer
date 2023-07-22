@@ -200,7 +200,35 @@
     margin-top: 130px;
     margin-left: 10px;
 }
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+    padding-top: 120px;
+}
+footer{
+    background: #0B0223;
+}
+.foot{
+    color: #ffffff;
+}
+.about a{
+    color: #ffffff;
 
+}
+.about{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.copyright{
+    color: #FFF;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 130px;
+}
 
 
  /* for mobile devices */
