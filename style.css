@@ -175,7 +175,33 @@
      bottom: 300px;
      right: 140px;
  }
-
+ /* button section styles */
+ .button-click{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 290px;
+    background: #FFF;
+    cursor: pointer;
+ }
+.btn-text{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.button-click:hover{
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+ }
+.button{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 130px;
+    margin-bottom: 160px;
+}
 
 
  /* for mobile devices */
@@ -241,19 +267,15 @@
         right: 50px;
        width: 100px;
        height: 100px;
-       
      }
 
      .play-instant-img>img {
          width: 80%;
-         
      }
 
      .play-instant-img {
          margin-left: 120px;
          margin-right: 40px;
-        
-        
      }
 
  }
