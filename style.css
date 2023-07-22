@@ -180,7 +180,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 290px;
+    width: 270px;
     background: #FFF;
     cursor: pointer;
  }
@@ -195,13 +195,12 @@
  }
 .button{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
-    margin-left: 300px;
-    margin-right: 100px;
     margin-top: 130px;
-    margin-bottom: 160px;
+    margin-left: 10px;
 }
+
 
 
  /* for mobile devices */
@@ -225,7 +224,7 @@
      }
 
      .banner-img img {
-         width: 90%;
+         width: 70%;
      }
 
      .banner-container {
@@ -277,5 +276,13 @@
          margin-left: 120px;
          margin-right: 40px;
      }
+     .button{
+        grid-template-columns: repeat(1, 1fr);
+     }
+    .button-click{
+        width: 240px;
+    }
+   
+     
 
  }
